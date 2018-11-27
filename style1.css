@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	border: 0;
+}
+
+body,html {
+	background-color: hsl(257, 40%, 49%);
+	width: 100%;
+	height: 100%;
+ }
+
+body{
+	background: url("images/bg-desktop.svg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+
+	/*idth: 100%;
+    max-width: 1440px;
+    height: 100%;*/
+}
+
+div header #svg1{
+	padding: 1.5em 0 0 2em;
+
+}
+
+div #container{
+       width: 100%;
+       max-width: 1440px;
+       height: auto;
+}
+
+#main{
+
+	display: grid;
+	grid-template-columns: 60% 1fr;
+	}
+
+div #svg2{
+      padding: 2em;
+      margin-left: 1em;
+}
+ 
+ div #content{
+	padding: 3em;
+	margin: 3em 0 ;
+	width: 400px
+	
+	
+}
+div h1 #heading{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+p{
+	opacity: 0.8;
+	font-size: 0.8rem;
+	margin-top: 1em;
+}
+
+#btn{
+ 
+ padding: 12px 50px;
+ border-radius: 20px;
+ border: none;
+ outline: 0; 
+ background-color: white;
+ color: hsl(257, 40%, 49%);
+ margin-top: 1.5em;
+}
+
+#foot{
+	float: right;
+	margin: 0 3em 3em 0;
+	
+   }
+
+   .fab{
+
+   	padding: 8px;
+   	border: 1px solid white;
+   	border-radius: 50%;
+   	margin: 5px;
+   	text-align: center;
+   	text-decoration: none;
+   }
+
+
+/*body,html{
+	width: 100%;
+	height: 100%;
+	margin: 2em;
+	padding:0;
+	background-color: hsl(257, 40%, 49%);
+}
+
+body{
+	background: url("images/bg-desktop.svg") no-repeat center center fixed;
+	background-size: contain;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+	width: 100%;
+    max-width: 1440px;
+}
+
+div #container{
+
+	display: grid;
+	grid-template-columns: 60% 40%;
+
+}
+*/
+/*#svg1{
+    margin-top: 2%;
+	margin-left: 4%;
+}
+
+
+#main{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   margin: 2% 2% 0 2%;
+   padding: 2em;
+}
+
+#mockup{
+	margin-right: 5em;
+}
+
+h1.heading {
+    font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+p{
+	opacity: 0.5;
+	font-size: 0.9rem;
+}
+
+ #content{
+	padding: 0 6em; 
+}
+
+#btn{
+ 
+ padding: 15px 50px;
+ border-radius: 20px;
+ border: none;
+ outline: 0; 
+ background-color: white;
+ color: hsl(257, 40%, 49%);
+ margin: 10px;
+}
+
+#foot{
+	float: right;
+	margin: 0 3em 3em 0;
+	
+   }
+
+   .fab{
+   	padding: 8px;
+   	border: 1px solid white;
+   	border-radius: 50%;
+   	margin: 5px;
+   	text-align: center;
+   	text-decoration: none;
+   }
+
+  */
